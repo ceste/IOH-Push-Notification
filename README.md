@@ -33,7 +33,7 @@ from finale left join details on replace(replace(page,'Browser_',''),'_',' ') = 
 where bannerid is not null
 ```
 
-After the tagging is one, push to table `digital.cst_myIM3_tags`. Current table does not have banner_id/page_id, add it if possible. 
+After the tagging is done, push to table `digital.cst_myIM3_tags`. Current table does not have banner_id/page_id, add it if possible. 
 
 Run below algo to get all the relevant users:
 
